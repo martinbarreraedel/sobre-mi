@@ -1,63 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumen del Alumno</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <header>
         <h1>Información del Alumno</h1>
     </header>
     
+    <div id="columna2">
     <main>
         <article>
             <h2>Datos Básicos</h2>
             <ul>
-                <li><strong>Nombre:</strong> Martín Barrera</li>
-                <li><strong>Edad:</strong> 32 años</li>
-                <li><strong>País:</strong> Argentina</li>
-                <li><strong>Provincia:</strong> Entre Ríos</li>
-                <li><strong>Ciudad:</strong> Paraná</li>
+            <li><strong>Nombre:</strong> Martín Barrera</li>
+            <li><strong>Edad:</strong> 32 años</li>
+            <li><strong>País:</strong> Argentina</li>
+            <li><strong>Provincia:</strong> Entre Ríos</li>
+            <li><strong>Ciudad:</strong> Paraná</li>
             </ul>
             <!--Este elemento crea una lista en la pagina con datos personales-->
         </article>
-        
-        <aside>
-            <img src="parana.jpeg"
-            alt="Foto de Paraná"
-            width="" height="">
-            <!--Este elemento carga una foto de parana en la pagina-->
-        </aside>
-
-        <aside>
-            <video width="300" height="350" autoplay="true" loop="true" mute="false"
-                source src="Turismo.mp4" type="video/mp4" controls
-                alt="Tu navegador no soporta el formato de video"> 
-            <!--Este elemento carga un video en la pagina de forma automatica y continua-->                
-            </video>
-        </aside>
 
         <article>
             <h2>Intereses</h2>
             <ul>
-                <li>Historia</li>
-                <li>Geografía</li>
-                <li>Geopolitica</li>
-                <li>Informática</li>
+            <li>Historia</li>
+            <li>Geografía</li>
+            <li>Geopolitica</li>
+            <li>Informática</li>
             </ul>
         </article>
 
         <article>
             <h2>Experiencias</h2>
-            <p>Curse 2 modulos de "Soy Henry"</p>
-            <p>Trabajo en el Ministerio de Desarrollo Social de Entre Ríos</p>
+            <ul>
+            <li>Curse 2 modulos de "Soy Henry"</li>
+            <li>Trabajo en el Ministerio de Desarrollo Social de Entre Ríos</li>
+            </ul>
         </article>
     </main>
-    
-    
+    </div>
 
+        <div id="columna1"> 
+        <aside>
+            <img src="parana.jpeg"
+            alt="Foto de Paraná">
+            <!--Este elemento carga una foto de parana en la pagina-->
+        
+            <video width="500" height="550" autoplay loop muted controls>
+                <source src="Turismo.mp4" type="video/mp4">
+                <source src="Turismo.ogg" type="video/ogg">
+                alt="Tu navegador no soporta el formato de video" 
+            <!--Este elemento carga un video en la pagina de forma automatica y continua-->                
+            </video>
+        </aside>
+        </div>
 
+       
 </body>
 </html>
 
