@@ -1,52 +1,56 @@
 body{
-    background-color: bisque;
+    background-color: bisque; /*Este elemento cambia el color del fondo de la pagina*/
     display: grid;
-    place-content: center;
+    place-content: center; /*Este elemento centra los elementos en la pagina*/
 
 }
 
 h1{
-    color: coral;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 300%;
+    color: coral; /*Este elemento da el color del titulo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Este elemento cambia la fuente del titulo*/
+    font-size: 300%; /*Este elemento cambia el tamaño de la fuente del titulo*/
     display: grid;
-    place-content: center;
+    place-content: center; /*Este elemento centra el titulo en la pagina*/
+    height: 100px; /*Este elemento le da altura al elemento del titulo para distanciarse de otros elementos*/
 }
 
 h2{
-    color: coral;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
+    color: coral; /*Este elemento da el color del subtitulo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Este elemento cambia la fuente del subtitulo*/
+    font-size: 150%; /*Este elemento cambia el tamaño de la fuente del subtitulo*/
     display: grid;
-    place-content: center;
+    place-content: center; /*Este elemento centra el subtitulo en la pagina*/
+    height: 100px; /*Este elemento le da altura al elemento del subtitulo para distanciarse de otros elementos*/
 }
 
 ul{
-    color: green;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
+    color: green; /*Este elemento da el color a las listas*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Este elemento cambia la fuente de las listas*/
+    font-size: 100%; /*Este elemento cambia el tamaño de las listas*/
     display: grid;
-    place-content: center;
+    place-content: center; /*Este elemento centra las listas en la pagina*/
+    height: 100px; /*Este elemento le da altura a las listas para distanciarse de otros elementos*/
 }
 
 * {
     margin:0;
     
     }
-    #columna1 {
+    #columna1 { /*Este elemento le da formato a la columna 1 posicionandola en un sector de la pagina*/
     position:absolute;
     top:0px;
-    left:0px;
+    left:20px;
     width:200px;
     margin-top:10px;
     height: 150px;
     }
-    #columna2 {
+    #columna2 { /*Este elemento le da formato a la columna 2 posicionandola en otro sector de la pagina*/
     margin-left:220px;
     margin-right:20px;
     margin-top:10px;
-    width: 200px;
-    height: 450px;
-    }
+    
+    
+}
+
 
 
